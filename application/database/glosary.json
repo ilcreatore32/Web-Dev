@@ -1,0 +1,36 @@
+{
+    "database":[
+        {
+            "Term": "Software",
+            "Description":"Conjunto de programas y rutinas que permiten a la computadora realizar determinadas tareas."
+        },
+        {
+            "Term": "Desarrollo",
+            "Description":"Acción de desarrollar o desarrollarse."
+        },
+        {
+            "Term": "Web",
+            "Description":"Conjunto de información que se encuentra en una dirección determinada de internet."
+        },
+        {
+            "Term": "Proyecto",
+            "Description":"Idea de una cosa que se piensa hacer y para la cual se establece un modo determinado y un conjunto de medios necesarios."
+        },
+        {
+            "Term": "Metodología",
+            "Description":"Conjunto de métodos que se siguen en una investigación científica, un estudio o una exposición doctrinal."
+        },
+        {
+            "Term": "Framework",
+            "Description":"Conjunto estandarizado de conceptos, prácticas y criterios"
+        },
+        {
+            "Term": "Ciclos de Vida de Software",
+            "Description":"son ciclos"
+        },
+        {
+            "Term": "Ciclos de Vida de Software",
+            "Description":"son ciclos"
+        }
+    ]
+}

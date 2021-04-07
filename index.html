@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./application/app-module.js"></script>
+    
+</head>
+<body>
+    
+    <nav-component></nav-component>
+   
+    <div class="banner-wrapper">        
+        <div class="welcome-banner">
+            <div class="curved-div">
+                <div class="container title">
+                        <h1 class="">Web Development
+                        <br>
+                        <small>by IUJO</small>
+                    </h1>
+                </div>
+                <div class="container">
+                    <img class="dev-img" src="./application/assets/pictures/web-developer.png" alt="web-developer">
+                </div>
+            </div>
+        </div>
+    </div> 
+                
+    <main class="container" >
+        <div class="container">
+
+        <enter-component Title="Bienvenida al blog">
+        </enter-component>
+            
+        <div class="container center">
+            <blockquote class="quote">
+                <span class="quote-span">Desarrollo web</span> : significa construir y mantener sitios web.
+            </blockquote>
+        </div>
+        
+        <enter-component Title="Introducción al desarrollo">
+        </enter-component>
+
+        <a name="index"></a>
+        <div class="container wrapper">
+            <a name="index"></a>
+            <h3 class="center">Índice de temas principales</h3>
+            <div slot="index">
+                <index-component Main="Ciclos de Vida de Software">
+                </index-component>
+                <index-component Main="Metodologías de Desarrollo de Software">
+                </index-component>
+                <index-component Main="Desarrollo de Proyectos Web">
+                </index-component>
+            </div>
+        </div>
+        
+
+        <enter-component Title="Comenzando desde 0 en el desarrollo">
+        </enter-component>
+
+        <enter-component Title="Detallando el ciclo y sus etapas">
+        </enter-component>
+
+        <enter-component Title="Comenzando el ciclo de desarrollo del proyecto">
+        </enter-component>
+
+        <enter-component Title="Fase 1: Análisis y recolección de datos">
+        </enter-component>
+
+        <enter-component Title="Fase 2: Metodología y plan de trabajo">
+        </enter-component>
+
+        <div class="container wrapper-img">
+            <img class="img-diagram" src="./application/assets/pictures/Diagrama PERT_ webDev Project.png" alt="PERT">
+        </div>
+
+        <div class="container wrapper-img">
+            <img class="img-diagram" src="./application/assets/pictures/Diagrama PERT_ webDev Project (2).png" alt="PERT-zoom">
+        </div>
+
+        <enter-component Title="Diagrama de PERT">
+        </enter-component>
+
+        <enter-component Title="UML y sus ventajas para el desarrollo con POO">
+        </enter-component>
+
+        <div class="container wrapper-img">
+            <img class="img-diagram" src="./application/assets/pictures/Diagrama de clases UML_ wevDev Project (2).png" alt="UML Classes">
+        </div>
+
+        <enter-component Title="Desarrollando software">
+        </enter-component>
+
+        <enter-component Title="Metodologías de desarrollo">
+        </enter-component>
+
+        <enter-component Title="Filosofía de las metodologías de desarrollo">
+        </enter-component>
+
+        <enter-component Title="Metodología seleccionada para el desarrollo: RAD">
+        </enter-component>
+
+        <enter-component Title="Implementación de RAD en el proyecto">
+        </enter-component>
+
+        <enter-component Title="Fase 3: construcción (diseño y desarrollo)">
+        </enter-component>
+
+        <enter-component Title="Roles en el desarrollo web">
+        </enter-component>
+
+        <a name="glosary"></a>
+        <div class="wrapper">
+            <enter-component Title="Glosario de términos">
+            </enter-component>
+            <glosary-component Term="Software"></glosary-component>
+            <glosary-component Term="Desarrollo"></glosary-component>
+            <glosary-component Term="Web"></glosary-component>
+            <glosary-component Term="Proyecto"></glosary-component>
+            <glosary-component Term="Metodología"></glosary-component>
+            <glosary-component Term="Framework"></glosary-component>
+        </div>
+        
+
+        <a name="referens"></a>
+        <enter-component Title="Fuentes bibliográficas">
+        </enter-component>
+
+        <a name="help"></a>
+        <enter-component Title="Sección de apoyo">
+        </enter-component>
+
+        <a name="author"></a>
+        <enter-component Title="Apartado del autor">
+        </enter-component>
+
+        <footer-component></footer-component>
+
+        </div>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,209 @@
+{
+    "database": [
+        {
+            "Title": "Bienvenida al blog",
+            "Contents": [
+                "Bienvenido al portal web del IUJO acerca del desarrollo web, con ciclos, metodologías y más. Este portal tiene como objetivo el aprendizaje de buenas prácticas para la gestión de proyectos, tomando en cuenta el ambiente en el que nos encontramos, la web, pero más allá de eso, aquí se expondrán herramientas que sirven en más de un ámbito de o nicho de trabajo, lo que buscamos es aprendizaje de gestión, planificación, análisis, todos aquellos aspectos que para muchos pueden ser tediosos o incluso innecesarios.",
+                "Pues bien, estos aspectos son más que útiles, más que necesarios, incluso obligatorios cuando se trata de desarrollar un proyecto con calidad; una guía, una previsión de las actividades a tomar, documentación, en esencia, formular un paso a paso del desarrollo. Acompáñanos por nuestro recorrido a través de estas herramientas que facilitan y mejoran la calidad del desarrollo."
+            ]
+        },
+        {
+            "Title": "Introducción al desarrollo",
+            "Contents": [
+                "Esto, de una manera muy resumida, explica de qué trata el desarrollo web; es el trabajo o proceso que permite que una web tenga: una buena apariencia, un funcionamiento eficaz, un buen desempeño todo a lo estamos muy habituados, permitiendo la mejor experiencia de usuario. El desarrollo web es bastante amplio, a veces, hasta complicado para los mismos desarrolladores, por esta razón existe más de una forma de llevar a cabo un proyecto web, sea desde los más simples, hasta los más complejos y grandes. Estas implementaciones fomentas “estilos de desarrollo”, donde según ciertos criterios aplicados veremos una mejor producción final; se pueden destacar las metodologías de desarrollo,  herramientas de gestión de proyectos, UML, entre otros. Estas herramientas tienen un objetivo en común, favorecer al proyecto en desarrollo, con el mejor análisis, planificación o diseño.",
+                "En esta guía nos enfocaremos en estos aspectos del desarrollo web, en las herramientas que facilitan y optimizan nuestro entorno de desarrollo, así como buenas prácticas, organización y calidad para desplegar un buen proyecto web. Acá, podrás no solo aprender la teoría, sino además, la práctica, ya que durante nuestro recorrido por el desarrollo web y el contenido expuesto aquí, se estarán aplicando los mismos conceptos didácticos en la creación de este ambicioso proyecto."
+            ]
+        },
+        {
+            "Title": "Comenzando desde 0 en el desarrollo",
+            "Contents": [
+                "Como mencionábamos en la introducción anterior, el desarrollo web, o más específico para hablar de este tema, el desarrollo de un proyecto, consiste en construcción y mantenimiento, pero en este desarrollo debe existir un comienzo, un desarrollo, y finalmente un despliegue y mantenimiento ¿no es así? No se puede pasar de 0 a 100 sin conocer que hay en medio, pues exactamente esto es lo que explican los ciclos de vida software.",
+                "Toda la transición, desde sus comienzos más humildes, hasta su despliegue y mantenimiento; un software o proyecto web, debería, haciendo énfasis en la opcionalidad presente, pasar por las etapas más básicas del ciclo: análisis, planificación, diseño, desarrollo e implementación, o incluso más, ya que los proyectos pueden variar sus fases según se convenga para el desarrollo.",
+                "De esta forma un proyecto puede ser divido en fases, estas facilitan la gestión de los proyectos en desarrollo, es decir que como el proyecto transcurre en forma secuencial, siguiendo un orden por fase y haciendo una fase dependiente de la anterior, logra la correcta ejecución del desarrollo, procurando abstraer la máxima cantidad de detalles antes de proseguir a la siguiente fase y así sucesivamente hasta finalizar en la implementación.",
+                "Durante el transcurso de la guía vamos a repasar los ciclos y veremos exactamente en qué fase nos encontramos en cada ejemplo dado, mientras tanto procedemos a mostrar un poco de teoría al respecto de los ciclos de vida del software."
+            ]
+        },
+        {
+            "Title": "Detallando el ciclo y sus etapas",
+            "Contents": [
+                "El ciclo de vida del desarrollo Software (SDLC en sus siglas inglesas), inglesas), es una secuencia estructurada y bien definida de las etapas en Ingeniería de software para desarrollar el producto software deseado. Esta sistematización indica cómo se divide un proyecto en módulos más pequeños para normalizar cómo se administra el mismo. Sin dar más rodeos veamos explícitamente cada etapa del ciclo.",
+                "<b>1. Fase de planificación: </b>En esta fase se prepara el diseño y posterior implementación del sistema. Es necesario definir el alcance del proyecto, justificarlo y escoger una metodología para su desarrollo. También es preciso asociar las diferentes actividades a plazos de tiempo y designar roles y responsabilidades.",
+                "<b>2. Fase de análisis: </b>Una vez que el equipo de proyecto se decide por una metodología de desarrollo determinada, da comienzo la segunda etapa en el ciclo de vida de un sistema de información. Es la que tiene que ver con el análisis y donde se busca concretar una serie de requisitos, que son los que regirán el nuevo sistema o los cambios a introducir en el antiguo, si con el proyecto se busca su actualización. ",
+                "<b>3. Fase de diseño: </b>En este estadio el equipo de proyecto tendrá que determinar cómo el nuevo sistema de información cumplirá con los requisitos aplicables. Es por ello que, a estas alturas del ciclo de vida de un sistema de información conviene identificar soluciones potenciales, evaluarlas y elegir la más conveniente. Ésta será o la más efectiva, o la más eficiente en costes o la menos compleja. Una vez completadas esas tareas, habrá que continuar haciendo la selección tecnológica de software y hardware, desarrollando las especificaciones para las distintas aplicaciones y obteniendo aprobación de la gerencia para poder proceder a la implementación del nuevo sistema.",
+                "<b>4. Fase de desarrollo: </b>El desarrollo software marca un antes y un después en la vida del sistema y significa, además, el inicio de la producción. El cambio es una constante durante esta etapa, en la que suele ser recomendable poner el foco en la formación y capacitación de los usuarios y el equipo técnico.",
+                "<b>5. Fase de integración y periodo de pruebas:  </b>El objetivo de esta etapa es corroborar que el diseño propuesto cumple con los requisitos de negocio establecidos. Puede ser necesario repetir las pruebas tantas veces como haga falta para evitar errores y, de hecho, conviene que el usuario final dé su conformidad con el resultado. Por último, este estadio concluye con la verificación y validación, que ayudan a asegurar la compleción del programa con éxito.",
+                "<b>6. Fase de implementación: </b>En esta etapa del ciclo de vida de un sistema de información hay que proceder a la instalación del hardware y software elegidos, crear las aplicaciones correspondientes, someterlas a pruebas, crear la documentación pertinente y capacitar a los usuarios. La conversión de datos es importante en este estadio, en el que ya se empieza a trabajar en el nuevo sistema.",
+                "<b>7. Fase de mantenimiento: </b>Esta etapa del ciclo de vida de un sistema de información está relacionada con las operaciones del día a día. Por lo general, consiste en introducir los ajustes necesarios para mejorar el rendimiento y corregir los problemas que puedan surgir. Una vez concluye la etapa de implementación se suele abrir un periodo de operación supervisada, durante el que las actividades de mantenimiento cobran una especial importancia, al orientarse a hacer backups, dar soporte a los usuarios, resolver fallos, optimizar el sistema para cuestiones relacionadas con la seguridad o la velocidad y revisar el software para garantizar la alineación con las metas del negocio."
+            ]
+        },
+        {
+            "Title": "Comenzando el ciclo de desarrollo del proyecto",
+            "Contents": [
+                "Empezar un proyecto de desarrollo puede ser un camino difícil de recorrer, al menos, sin una apropiada guía o mapa a seguir que te indique el curso a tomar, de modo que es necesario hacer ciertas tareas que influirán en ese camino al éxito. De eso se tratan las fases de análisis y planificación, ambas buscan el inicio apropiado del proyecto, “iniciar con el pie derecho” en otras palabras.",
+                "Durante la fase análisis, se exponen los fundamentos básicos, objetivos, medios,  requerimientos, etc. Cuando aplicamos esto al desarrollo de un proyecto, concretamente este proyecto web,   tenemos que recopilar la máxima información disponible de lo que se nos solicita para realizar un análisis exhaustivo de esta y  además realizar un ensayo donde declaremos los puntos más importantes y que afectan a nuestro desarrollo.",
+                "Para el desarrollo de este portal web se ha pasado por esta etapa del ciclo, veamos un poco de ese análisis y recolección de datos realizado."
+            ]
+        },
+        {
+            "Title": "Fase 1: Análisis y recolección de datos",
+            "Contents": [
+                "Empezar un proyecto de desarrollo puede ser un camino difícil de recorrer, al menos, sin una apropiada guía o mapa a seguir que te indique el curso a tomar, de modo que es necesario hacer ciertas tareas que influirán en ese camino al éxito. De eso se tratan las fases de análisis y planificación, ambas buscan el inicio apropiado del proyecto, “iniciar con el pie derecho” en otras palabras.",
+                "Durante la fase análisis, se exponen los fundamentos básicos, objetivos, medios,  requerimientos, etc. Cuando aplicamos esto al desarrollo de un proyecto, concretamente este proyecto web,   tenemos que recopilar la máxima información disponible de lo que se nos solicita para realizar un análisis exhaustivo de esta y  además realizar un ensayo donde declaremos los puntos más importantes y que afectan a nuestro desarrollo.",
+                "Para el desarrollo de este portal web se ha pasado por esta etapa del ciclo, veamos un poco de ese análisis y recolección de datos realizado."
+            ],
+            "SubTitles":[
+                "Fundamentos Básicos: <p>Creación de un portal web informativo para los estudiantes del IUJO, que desean aprender desarrollo web. Este proyecto debe tener las bondades fundamentales de todo portal web: navegación intuitiva, índice de los temas a desarrollar, calidad del contenido, opiniones del autor, glosario de términos y además contar con un diseño agradable.</p>",
+                "Objetivos: <p>Los objetivos del proyecto son: creación de un portal web, desarrollar una guía práctica de los temas principales, desarrollar el proyecto con POO, utilizar las herramientas y metodologías de desarrollo y dar una introducción a los estudiantes al tema.</p>",
+                "Información que se solicita: <p>Los temas principales del proyecto son: ciclo de vida del software y sus etapas, desarrollo de aplicaciones web, metodologías de desarrollo de aplicaciones web.</p>",
+                "Medios: <p>Los medios, más allá de un buen equipo, conocimiento previo de las tecnologías que conforman la web, se cuenta con una arquitectura del proyecto basada en POO y con una metodología de desarrollo rápido de aplicaciones (Pronto entraremos más a fondo en este aspecto).</p>",
+                "Requerimientos: <p>Ninguna librería o framework puede ser utilizado, se debe desarrollar con altos estándares de desarrollo de software, buenas prácticas y estructuración de proyectos. Además de la entrega pautada para el día: 07/04/21.</p>",
+                "<p>Esto nos permitirá dar forma a la estrategia de contenidos y a la arquitectura del proyecto, así como escoger una metodología acorde para el desarrollo, es decir, este análisis nos permitirá avanzar hacia la siguiente fase (planificación), donde gracias al ensayo tenemos la información necesaria.</p>"
+            ]
+        },
+        {
+            "Title": "Fase 2: Metodología y plan de trabajo",
+            "Contents": [
+                "Una vez que se realiza este análisis y recolección de datos, el siguiente pasó es la fase de planificación: la identificación de recursos, selección de estrategias, metodologías, plan de trabajo a seguir y más. Para nuestro caso, la identificación de recursos podría centrarse en: los conocimientos previos para el desarrollo (POO, JavaScript, etc.), el tiempo disponible para la culminación y entrega del proyecto, metodología a implementar y los recursos tecnológicos o virtuales a nuestra disposición.",
+                "Después pasaremos a elaborar un plan de trabajo, determinando las fechas, los plazos de ejecución y las estrategias que se pondrán en marcha. Un plan de trabajo es, en esencia, la hoja de ruta de un proyecto. Sin embargo, no debe ser una camisa de fuerza para quienes lo elaboren; al contrario, es preciso que se conceda un cierto margen para aquellas eventualidades que se puedan generar durante la ejecución.",
+                "Para generar esta “hoja de ruta”, utilizare una de las herramientas de gestión de proyectos más populares, el diagrama PERT, este diagrama busca organizar de forma gráfica los pasos a seguir para el desarrollo de un proyecto teniendo en cuenta las dependencias entre las actividades o fases, lo cual, viene muy bien para seguir explicando el ciclo de vida ya planteado."
+            ]
+        },
+        {
+            "Title": "Diagrama de PERT",
+            "Contents": [
+                "El Diagrama PERT es una técnica de planificación de proyectos que consiste en una representación gráfica de las relaciones que se establecen entre las distintas tareas del mismo. Con el Diagrama PERT es posible calcular de forma ágil los tiempos que va a consumir un proyecto.",
+                "Además del diagrama PERT existen muchas otras herramientas de gestión de proyectos como: Kanban,  GANTT, UML. Todos estos nos proporcionan una organización efectiva durante el proyecto. Una vez que hemos alcanzado este punto es tiempo de hablar de las metodologías de desarrollo. A continuación se presenta un diagrama adicional: diagrama de clases UML, el cual nos facilita el desarrollo orientado a objetos."
+                ]
+        },
+        {
+            "Title": "UML y sus ventajas para el desarrollo con POO",
+            "Contents": [
+                "El lenguaje de modelado unificado (UML) es un estándar para la representación visual de objetos, estados y procesos dentro de un sistema. Por un lado, el lenguaje de modelado puede servir de modelo para un proyecto y garantizar así una arquitectura de información estructurada; por el otro, ayuda a los desarrolladores a presentar la descripción del sistema de una manera que sea comprensible para quienes están fuera del campo. UML se utiliza principalmente en el desarrollo de software orientado a objetos. Al ampliar el estándar en la versión 2.0, también es adecuado para visualizar procesos empresariales.",
+                "Antes de que UML se introdujera en el desarrollo de software, el campo de la programación orientada a objetos (OOP) había crecido. Este estilo de programación se basa en el concepto de que todo es un objeto: los bloques de construcción de un programa son objetos que interactúan entre sí.",
+                "Hay muchos paradigmas o modelos para la resolución de problemas en la informática, que es el estudio de algoritmos y datos. Hay cuatro categorías de modelos para la resolución de problemas: lenguajes imperativos, funcionales, declarativos y orientados a objetos (OOP). En los lenguajes orientados a objetos, los algoritmos se expresan definiendo 'objetos' y haciendo que los objetos interactúen entre sí. Esos objetos son cosas que deben ser manipuladas y existen en el mundo real. Pueden ser edificios, artefactos sobre un escritorio o seres humanos.",
+                "Los lenguajes orientados a objetos dominan el mundo de la programación porque modelan los objetos del mundo real. UML es una combinación de varias notaciones orientadas a objetos: diseño orientado a objetos, técnica de modelado de objetos e ingeniería de software orientada a objetos.",
+                "UML usa las fortalezas de estos tres enfoques para presentar una metodología más uniforme que sea más sencilla de usar. UML representa buenas prácticas para la construcción y documentación de diferentes aspectos del modelado de sistemas de software y de negocios.",
+                "Como las clases son los componentes básicos de los objetos, los diagramas de clases son los componentes básicos del UML. Los diversos componentes en un diagrama de clases pueden representar las clases que se programarán en realidad, los objetos principales o la interacción entre clases y objetos.",
+                "La figura de clase en sí misma consiste en un rectángulo de tres filas. La fila superior contiene el nombre de la clase, la fila del centro contiene los atributos de la clase y la última expresa los métodos o las operaciones que la clase puede utilizar. Las clases y las subclases se agrupan para mostrar la relación estática entre cada objeto. Veamos esta herramienta puesta en practica: "
+            ]
+        },
+        {
+            "Title": "Desarrollando software",
+            "Contents": [
+                "Existe la creencia extendida de que los programas software tienen que ver solamente con los ordenadores y las grandes computadoras.",
+                "Sin embargo, la ingeniería del software va mucho más allá. Se trata del proceso cuya finalidad es desarrollar productos o soluciones para un cliente o mercado en particular, teniendo en cuenta factores como los costes, la planificación, la calidad y las dificultades asociadas. A todo esto es a lo que denominamos metodologías de desarrollo de software. Es decir, se trata del proceso que se suele seguir a la hora de diseñar una solución o un programa específico. Tiene que ver, por tanto, con la comunicación, la manipulación de modelos y el intercambio de información y datos entre las partes involucradas. O para ser más precisos, las metodologías de desarrollo de software son enfoques de carácter estructurado y estratégico que permiten el desarrollo de programas con base a modelos de sistemas, reglas, sugerencias de diseño y guías."
+            ]
+        },
+        {
+            "Title": "Metodologías de desarrollo",
+            "Contents": [
+                "Las metodologias de desarrollo de Software como aquellos procedimientos o marcos (técnicas o instrucciones dada la redundancia) que nos permitirán crear software de calidad. Cabe destacar que estos métodos no son impuestos, tu como desarrollador puedes elegir seguirlos o no, solo son recomendaciones que se aconseja seguir para mejorar nuestro trabajo. Son básicamente un marco de trabajo usado para estructurar, planificar y controlar el proceso de desarrollo en sistemas de información.",
+                "Cada metodología tiene su propio enfoque para el desarrollo de software, entre estos enfoques se destacan: ",
+                "<b>Modelo en cascada: </b>el modelo en cascada es un proceso de desarrollo secuencial, en el que el desarrollo de software se concibe como  un conjunto de etapas que  se ejecutan una tras otra. Se le denomina así por las posiciones que ocupan las diferentes fases que componen el proyecto, colocadas una encima de otra, y siguiendo un flujo de ejecución de arriba hacia abajo, como una cascada.",
+                "<b>Prototipo: </b>el prototipo permite desarrollar modelos de aplicaciones de software que permiten ver la funcionalidad básica de la misma, sin necesariamente incluir toda la lógica o características del modelo terminado. El prototipo permite al cliente evaluar en forma temprana el producto, e interactuar con los diseñadores y desarrolladores para saber si se está cumpliendo con las expectativas y las funcionalidades acordadas.",
+                "<b>Incremental: </b>el modelo incremental de gestión de proyectos tiene como objetivo un crecimiento progresivo de la funcionalidad. Es decir, el producto va evolucionando con cada una de las entregas previstas hasta que se amolda a lo requerido por el cliente o destinatario.",
+                "<b>Espiral: </b>consiste en seguir ciclos crecientes de cuatro fases cada uno, que se van realizando siguiendo una forma de espiral. En cada ciclo se pasa por dichas fases bien definidas, como en el modelo de cascada, pero con capacidad de evolucionar su complejidad con cada ciclo. Por tanto, se trata de un modelo evolutivo que, conforme avancen los ciclos, aumentará el tiempo de ejecución, así como el volumen de código fuente desarrollado y la complejidad de la gestión de riesgos y de la planificación."
+            ]
+        },
+        {
+            "Title": "Filosofía de las metodologías de desarrollo",
+            "Contents": [
+                "Según la filosofía de desarrollo, las metodologías se pueden clasificar en dos grupos, las metodologías tradicionales, que se basan en una fuerte planificación durante todo el desarrollo y un ciclo de vida más tradicional, y las metodologías ágiles, en las que el desarrollo es incremental, cooperativo, sencillo y adaptado.",
+                "Ademas, existen otras filosofias o principios cuando se desarrolla, son aplicables a la mayoría de los proyectos y equipos de trabajo, y no sólo para proyectos tecnológicos… algunas pueden ser incluso una forma de pensar, un modo de vida."    
+            ],
+            "SubTitles":[
+                "Filosofías y principios para desarrolladores",
+                "Don't Repeat Yourself: <p>Este principio es una filosofía para definir los procesos, que viene a decir que debemos evitar métodos o clases que hagan prácticamente lo mismo.</p>",
+                "Keep It Simple, Stupid: <p>Se traduciría como manténlo sencillo, estúpido. Viene a decir que cuanto más complejo sea una clase, método, proceso o sistema, más probable es que aparezcan los problemas.</p>",
+                "You Aren’t Gonna Need It: <p>Se traduce como No vas a necesitarlo. Es una filosofía que te recomienda no desarrollar o agregar una funcionalidad nueva excepto cuando sea necesario.</p>",
+                "Release Early, Release Often: <p>Se traduce como publica temprano, publica a menudo. Esta filosofía recomienda que publiques tus desarrollos en cuanto los tengas, y de manera frecuente.</p>"
+            ]
+        },
+        {
+            "Title": "Metodología seleccionada para el desarrollo: RAD",
+            "Contents": [
+                "Primero que nada, tenemos que tener claro cuales son sus premisas básicas. La primera persona que habló del método RAD fue James Martin a nales de los 80 y, actualmente, estamos ante uno de los métodos de desarrollo más populares, dentro de las técnicas de desarrollo ágil. James Martin consideró que para aplicar de forma correcta la metodología RAD tenemos que tener en cuenta 4 componentes: Personas, herramientas, metodología y gestión.",
+                "La idea principal es entregar sistemas de alta calidad, en poco tiempo y con un coste bajo de inversión. Para conseguir esto, hay que seguir determinadas pautas que harán que estemos ante una auténtica metodología DRA (las siglas en castellano: Desarrollo Rápido de Aplicaciones), que veremos más adelante."
+            ],
+            "SubTitles":[
+                "Fases con metodología RAD",
+                "➡Planicación de necesidades: <p>En esta primera fase, lo que habrá que hacer será sentar las bases de las necesidades del proyecto, tanto de necesidades de la aplicación como de alcance del proyecto y de esta manera comenzar a trabajar en la creación de prototipos.</p>",
+                "➡Diseño y feedback con el usuario: <p>Los usuarios aportarán comentarios que serán determinantes a la hora de diseñar la arquitectura del sistema. Con el feedback del usuario crearemos modelos y prototipos iniciales. Y este paso se podrá repetir tantas veces como se considere necesario según avance el proyecto.</p>",
+                "➡Construcción: <p>Ahora que tenemos el diseño básico, tendremos que realizar el grueso del proyecto: Codificación, pruebas e integración reales de la aplicación. Al igual que en la fase anterior, esta se podrá repetir tantas veces como necesitemos, según haya nuevos componentes o modificaciones en el proyecto.</p>",
+                "➡Transición: <p>La última fase, también conocida como “cutover”, permitirá al equipo de desarrollo pasar los componentes a un entorno de producción en vivo, para realizar todas las pruebas que sean necesarias.</p>"
+            ]
+        },
+        {
+            "Title": "Implementación de RAD en el proyecto",
+            "Contents": [
+                "Al momento de implementar esta metodología tenemos que tener presente, las etapas por las que ya hemos pasado con anterioridad (análisis y planificación), para así proceder con la fase correspondiente en esta metodología. Principalmente porque las fases iniciales de las metodologías más utilizadas no discrepan mucho entre sí, esto nos permitió tomar la delantera en cuanto a estas dos primeras fases del proyecto.",
+                "Entonces nuestro siguiente paso sería establecer prototipos y comenzar el diseño y estructura del proyecto, a diferencia de otras metodologías, RAD se centra en la agilización del desarrollo, permitiéndonos adoptar una actitud más agresiva hacia la etapa de construcción y diseño más que de planificación. Es por esta razón que RAD fue mi metodología seleccionada para poner en practica durante el transcurso de este proyecto, de manera que agilizara el proceso de codificación y permitiera, como dice su nombre, el desarrollo rápido del proyecto para la fecha pautada con la meyor calidad posible."
+            ]
+        },
+        {
+            "Title": "Fase 3: construcción (diseño y desarrollo)",
+            "Contents": [
+                "En esta tercera fase comienza el desarrollo, es decir, comienza la implementación de programación orientada a objetos, buenas prácticas, arquitectura, técnicas y más. Acá es donde empieza, a su vez, nuestro tercer tema principal, el desarrollo de aplicaciones web, donde hablaremos de sus conceptos, los roles implicados y las tendencias actuales."            ]
+        },
+        {
+            "Title": "Roles en el desarrollo web",
+            "Contents": [
+                "En esta tercera fase comienza el desarrollo, es decir, comienza la implementación de programación orientada a objetos, buenas prácticas, arquitectura, técnicas y más. Acá es donde empieza, a su vez, nuestro tercer tema principal, el desarrollo de aplicaciones web, donde hablaremos de sus conceptos, los roles implicados y las tendencias actuales."            
+            ],
+            "SubTitles":[
+                "Diseñador UI/UX: <p>Esta disciplina se encarga de que el sitio sea usable y que la experiencia del usuario sea agradable. Una tarea importante en este rol es el flujo de usuario, que es la cantidad de pasos que debe seguir para realizar una tarea.</p>",
+                "Web Designer O Maquetador: <p></p>",
+                "Frontend Developer o Programador Frontend: <p></p>",
+                "Backend Developer o Programador Backend: <p></p>",
+                "DBA(Database Administrator): <p></p>",
+                "QA (Quality Assurance o Control de Calidad): <p></p>"
+            ]
+        },
+        {
+            "Title": "Glosario de términos",
+            "Contents": [
+                "Esta sección contiene los términos utilizados durante el desarrollo del tema; cumple con el objetivo de organizar la información y brindar un apoyo al estudiante cuando desconoce o quiere investigar sobre un término en específico. A continuación se muestran los diferentes términos a los que hemos hecho referencia: "
+            ] 
+        },
+        {
+            "Title": "Fuentes bibliográficas",
+            "Links":[
+                "<a href='https://www.incentro.com/es-es/blog/stories/metodologia-rad-desarrollo-rapido-aplicaciones/#:~:text=Metodología%20RAD%20o%20DRA.&text=Este%20método%20abarca%20el%20desarrollo,y%20la%20rapidez%20de%20ejecución.'>Metodología RAD</a>",
+                "<a href='https://desarrollowp.com/blog/tutoriales/filosofias-y-principios-para-desarrolladores/'>Filosofías y principios para desarrolladores</a>",
+                "<a href='https://aspgems.com/metodologia-de-desarrollo-de-software-iii-modelo-en-espiral/'>Modelo en Espiral</a>",
+                "<a href='https://www.obsbusiness.school/blog/caracteristicas-y-fases-del-modelo-incremental'>Características y fases del modelo incremental</a>",
+                "<a href='https://openclassrooms.com/en/courses/4309151-gestiona-tu-proyecto-de-desarrollo/4538221-en-que-consiste-el-modelo-en-cascada'>En qué consiste el modelo en cascada</a>",
+                "<a href='https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/el-modelo-en-cascada/#:~:text=El%20desarrollo%20en%20cascada%20(en,ejecuta%20tan%20solo%20una%20vez.'>El modelo en cascada: desarrollo secuencial de software</a>",
+                "<a href='https://es.wikipedia.org/wiki/Metodología_de_desarrollo_de_software'>Metodología de desarrollo de software</a>",
+                "<a href='https://studentplace98.blogspot.com/2018/09/metodologia-de-desarrollo-de-software.html'>Metodologia de Desarrollo de Software</a>",
+                "<a href='https://www.lucidchart.com/pages/es/tutorial-de-diagrama-de-clases-uml'>Tutorial de diagrama de clases UML</a>",
+                "<a href='https://www.lucidchart.com/pages/es/que-es-el-lenguaje-unificado-de-modelado-uml#section_10'>Qué es el lenguaje unificado de modelado (UML)</a>",
+                "<a href='https://www.codeproject.com/Articles/618/OOP-and-UML'>OOP and UML</a>",
+                "<a href='https://paginaweb2.com/post-que-es-uml-y-sus-ventajas-157'>Que es UML y Sus Ventajas?</a>",
+                "<a href='https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/uml-lenguaje-unificado-de-modelado-orientado-a-objetos/'>UML, lenguaje de modelado gráfico</a>",
+                "<a href='https://blog.structuralia.com/diagrama-pert'>Diagrama PERT: Definición y comparativa con otras técnicas de gestión</a>"
+            ]
+        },
+        {
+            "Title": "Sección de apoyo",
+            "Contents": [
+                "Esta sección se crea con el objetivo de ayudarte en tu aprendizaje del desarrollo web y así profundizar en los conceptos que aquí se presentan, de igual forma se exhorta a la búsqueda de otros conocimientos relacionados a: ciclos de vida del software, metodologías de desarrollo, gestión y desarrollo de proyectos y más. Así promovemos el aprendizaje de incluso los tópicos más avanzados de tema.",
+                "Aquí puedes encontrar links de recursos importantes e informativos, así como infografías, cursos y opiniones del  desarrollo de proyectos y sus fundamentos por otros programadores."
+            ],
+            "Links":[
+                "<a href='https://pirhua.udep.edu.pe/bitstream/handle/11042/2747/ING_521.pdf?sequence'>MANUAL PARA ELEGIR UNA METODOLOGÍA DE DESARROLLO DE SOFTWARE DENTRO DE UN PROYECTO INFORMÁTICO</a>",
+                "<a href='https://i.pinimg.com/originals/72/61/7d/72617d1283b150d61484e2fec3b70305.png'>Conceptos Basicos de Scrum</a>",
+                "<a href='https://i.pinimg.com/originals/c7/ea/61/c7ea619688e861496eb2c09a7acab801.png'>Etapas Basicas del Desarrollo de un Proyecto Web</a>"
+            ]
+        },
+        {
+            "Title": "Apartado del autor",
+            "Contents": [
+                "Por último, debo agregar mis opiniones y conclusiones acerca de este tema y los contenidos aquí expuestos. Empezare diciendo que durante cada parte del desarrollo me fue imposible separar mis opiniones de la teoría, arrojando de vez en cuando una que otra definición por parte propia. Sin embargo, me había reservado mis opiniones del tema desde una perspectiva global para esta sección dedicada a mis pensamientos.",
+                "Debo decir que todos los temas que aquí se destacan forman parte del proceso de desarrollo de un software de calidad, es necesario conocer todas estas herramientas ya que son el día a día de cualquier desarrollador, sin tomar en cuenta en que ámbito este trabajando, sea web, móvil o desktop. Con estas herramientas podemos, no solo mejorar la calidad, sino que además promueven la comunicación entre desarrolladores y equipos de trabajo, por lo que facilitan la elaboración de proyectos más ambiciosos y grandes que este modesto blog, en donde solo se ha utilizado cierta parte de estas herramientas.",
+                "La elección de estos temas principales no fue al azar, fue un acto premeditado en busca del aprendizaje de las mejores prácticas en el desarrollo, como estudiantes de informática del IUJO, tenemos que aprender cómo manejar proyectos, documentarlos, desplegarlos y más.  Todo lo expuesto en este blog te ayudara en ese proceso, pero también queda de parte del lector buscar mucho más, así como tendencias actuales o tecnologías y métodos que facilitan el desarrollo, porque en este nicho todo está en constante evolución y si no somos vanguardistas podemos quedarnos atrás y estancarnos en lo básico. Aunque parezca que la invitación va más hacia aprender lo más actual y descartar todo lo anterior, en realidad, lo que trato de decir es que debemos mantener al margen de los avances actuales pero sin olvidar las bases, ya que estas son el punto de partida para todo lo nuevo que vaya a surgir."
+            ] 
+        }
+    ]          
+}
+  
